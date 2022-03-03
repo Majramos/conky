@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
-Exec=conky -d  --pause=10 --config=~/.config/conky/conky.conf
-X-GNOME-Autostart-enabled=true
+Version=1.0
+Name=conky
+Path=/home/majramos/AppImages
+Exec=./conky-x86_64.AppImage -d --pause=20
+Terminal=false
 NoDisplay=false
 Hidden=false
-Name[en_US]=conky
-Comment[en_US]=Startup conky
-X-GNOME-Autostart-Delay=0
